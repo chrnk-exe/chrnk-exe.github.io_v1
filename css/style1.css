@@ -1,0 +1,214 @@
+/*default*/
+* {
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	font-size: 20px;
+	color: #444;
+}
+li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul {
+	margin: 0;
+	display: block;
+}
+a {
+	text-decoration: none;
+	color: #444;
+}
+
+/*header*/
+
+header {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	background-color: #eee;
+	height: 60px;
+	top: 0;
+	left: 0;
+}
+
+.head__menu {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	padding-left: 0;
+}
+
+.head__button {
+	display: block;
+	text-align: center;
+	padding-left:10px;
+	padding-right:10px;
+	height: 100%;
+	line-height: 60px;
+}
+
+.head__button img{
+	 height: 20px;
+	 width: 50px;
+}
+
+.head__button:hover {
+	background-color: #E96656;
+	color: white;
+	transition: background-color 0.5s, color 0.3s;
+}
+
+#headlogo {
+	max-height: 75px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px rgb(0, 0, 0,0.5);
+}
+
+#headlogo:hover {
+	max-height: 100px;
+	box-shadow: 0 0 10px rgba(200, 0, 0, 0.5);
+	transform: max-height 0.5s, box-shadow 0.5s; /* опа ага*/
+}
+
+.face {
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	border-bottom: 1px solid red; 
+	height: 600px;
+}
+
+.face canvas {
+	display: block;
+}
+
+.f-left {
+	width: 50%;
+	background-color: #ddd0;
+}
+
+.f-anim {
+	width: 50%;
+	background-color: #eeeeee69;
+}
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 90%;
+	background-color: #d4404a;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	z-index: -1;
+  }
+/*main*/
+
+main{
+	margin: 10px 10%;
+}
+
+main h1 {
+	text-align: center;
+	color: #FF4500;
+}
+
+
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+	text-align: center;
+	border: 2px solid #FF6347;
+	border-radius: 15px;
+	min-width: 230px;
+	max-width: 285px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	margin: 10px;
+}
+
+.card img {
+	display: block;
+	margin: 0 auto;
+}
+
+.popAndPoop {
+	display: flex;
+}
+
+.game {
+	display: flex;
+}
+
+.team {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.form {
+	/*border: 1px solid purple;*/
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(45deg, #F29987, #FF541B);
+	border-radius: 25px;
+}
+
+.form__window {
+	padding: 10px;
+}
+
+.form__holder {
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	padding-bottom: 15px;
+}
+
+.form input, .form textarea {
+	border: 2px solid #999;
+	border-radius: 3px;
+	font-size: 18px;
+	padding: 5px;
+}
+
+.form label {
+	padding-bottom: 5px;
+	color: white;
+}
+
+input:focus {
+	border-color: none;
+	border-color: rgba(200, 0, 0, 0.8);
+	outline: rgba(200, 0, 0, 0.5);
+	box-shadow: 0 0 10px rgba(200, 0, 0, 0.5);
+}
+
+/*footer*/
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 10%;
+}
+
+.contacts {
+	padding-right: 100px;
+}
+
+.footer__bottom {
+	text-align: center;
+}
