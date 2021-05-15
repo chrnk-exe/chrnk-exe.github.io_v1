@@ -372,6 +372,34 @@ main h1 {
 	margin-top:15px;
 }
 
+@media (max-width: 1130px) { 
+	.form {
+		/*border: 1px solid purple;*/
+		display: flex;
+		flex-direction: column;
+		background-image: url("../img/narutoshitblur.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+		padding: 3em 6em;
+		margin-top:15px;
+	}
+}
+
+@media (max-width: 876px) { 
+	.form {
+		/*border: 1px solid purple;*/
+		display: flex;
+		flex-direction: column;
+		background-image: url("../img/narutoshitblur.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+		padding: 1em 1em;
+		margin-top:15px;
+	}
+}
+
 .form h1 {
 	color: #eee;
 }

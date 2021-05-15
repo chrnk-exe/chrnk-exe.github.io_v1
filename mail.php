@@ -1,4 +1,5 @@
 <?php
+	$data['error'] = false;
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$subject = $_POST['subject'];
@@ -31,6 +32,7 @@
 	// с инета спиздил
 	ini_set('display_errors','On');
 	error_reporting('E_ALL');
+
 	echo json_encode($data);
 	
 ?>
