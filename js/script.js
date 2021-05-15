@@ -180,6 +180,13 @@ let particlesSettings = {
    ScrollReveal().reveal('.team .card', {delay: 100});
    ScrollReveal().reveal('.footer-logo', {delay: 100});
    ScrollReveal().reveal('.contacts h2', {distance: '150%', origin: 'left', opacity:0, delay: 150})
+   ScrollReveal().reveal('.footer__bottom .right', {distance: '120%', origin: 'right', opacity: 0, delay: 250});
+   ScrollReveal().reveal('.footer__bottom .left', {distance: '120%', origin: 'left', opacity: 0, delay: 250});
+   ScrollReveal().reveal('h1', {delay: 100});
+   ScrollReveal().reveal('.game-description', {delay: 150});
+   ScrollReveal().reveal('.form', {delay: 200});
+   ScrollReveal().reveal('.footer__info', {delay: 150, distance: '120%', origin: 'right', opacity: 0 });
+   ScrollReveal().reveal('.contact_item', {delay: 150, distance: '120%', origin: 'bottom', opacity: 0 });
 
 /* ===============================
 	анимация с попкорнмэном
