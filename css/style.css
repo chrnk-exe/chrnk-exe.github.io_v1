@@ -461,6 +461,10 @@ footer {
 	border-bottom: 2px solid #eee;
 }
 
+footer .footer-logo {
+	box-shadow: 0 0 40px rgba(0, 0, 0, 0.5) ;
+}
+
 footer h2 {
 	font-size: 36px;
 	color: #FF4500;
