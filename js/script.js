@@ -228,7 +228,7 @@ anime({
    let N = new Image();
    N.src = "img/lettersNobg/n.png";
    let KAMEN = new Image();
-   KAMEN.src = "img/lettersNobg/kamen.png"
+   KAMEN.src = "img/lettersNobg/kamengray.png"
    let KAMENdiv = document.createElement("div");
    KAMENdiv.append(KAMEN);
    
@@ -257,7 +257,7 @@ anime({
    tl.add({
     targets: divs,
     opacity: 1,
-    translateY: 400,
+    translateY: 450,
     translateX: 175,
     rotate: {
       value: '1turn',
@@ -268,7 +268,7 @@ anime({
    });
    tl.add({
     targets: KAMENdiv,
-    translateY: 85,
+    translateY: 120,
     translateX: -65
    })
    tl.add({

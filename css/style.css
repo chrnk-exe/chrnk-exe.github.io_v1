@@ -105,7 +105,7 @@ main {
 
 main h1 {
 	text-align: center;
-	color: #ff3300;
+	color: #555;
 }
 
 /*Верх с анимацией*/
@@ -336,7 +336,7 @@ main h1 {
 	margin: 3em auto;
 	padding: 0 10%;
 	text-align: center;
-	color:#FF4500;
+	color:#555;
 }
 /* download section */
 
@@ -374,6 +374,8 @@ main h1 {
 /* team */
 
 .team .card img {
+	height: 5em;
+	width: 5em;
 	border-radius: 50%;
 }
 
@@ -485,7 +487,7 @@ footer .footer-logo {
 
 footer h2 {
 	font-size: 36px;
-	color: #FF4500;
+	color: #555;
 }
 
 .footer__title_border {
