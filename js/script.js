@@ -215,7 +215,7 @@ anime({
 })
 
 /* ===============================
-	Анимация слева
+	Анимация слева i dont understand why it doesnt work...
    =============================== */
    let K = new Image();
    K.src = "img/lettersNobg/k.png";
