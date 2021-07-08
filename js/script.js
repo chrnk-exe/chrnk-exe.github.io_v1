@@ -257,8 +257,8 @@ anime({
    tl.add({
     targets: divs,
     opacity: 1,
-    translateY: 450,
-    translateX: 175,
+    translateY: 500,
+    translateX: animWindow.offsetWidth / 3,
     rotate: {
       value: '1turn',
       duration: 2000,
@@ -268,8 +268,8 @@ anime({
    });
    tl.add({
     targets: KAMENdiv,
-    translateY: 120,
-    translateX: -65
+    translateY: 165,
+    translateX: 5
    })
    tl.add({
     targets: KAMEN,
